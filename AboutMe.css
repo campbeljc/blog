@@ -1,0 +1,134 @@
+html{
+	height:100%;
+	width:100%;
+	margin:auto 0;
+}
+
+
+.hey{
+	display:flex;
+	height: 50px;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	top: 0;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+
+a > h1{
+	color:black;
+	margin:30px;
+	font-size: 30px;
+	font-family: 'Nothing You Could Do', cursive;
+	/*font-family: 'Fredericka the Great', cursive;*/
+}
+
+.push{
+	font-family: 'Nothing You Could Do', cursive;
+	margin:30px;
+	margin-left:auto;
+	margin-right:2em;
+}
+
+.title h1{
+	font-family: 'Martel', serif;
+	line-height: 1.5;
+	font-size: 27px;
+	margin:0 30px;
+	margin-top:30px;
+}
+
+.title{
+	margin:0 18%;
+	margin-top: 60px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.text{
+	margin:40px 20%;
+}
+
+h2{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	color: #666666;
+	margin:20px 30px;
+}
+
+h3{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #666666;
+	align-self: flex-end;
+	margin-bottom:0px;
+	margin-top:30px;
+}
+
+li{
+	font-size: 16px;
+	font-family: 'Martel', serif;
+	line-height: 2;
+}
+
+
+p{
+	font-size: 16px;
+	font-family: 'Martel', serif;
+	line-height: 2;
+}
+
+.centered{
+	text-align: center;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+
+	.text{
+		margin:40px 15%;
+	}
+	
+	.title{
+		margin:0px 12%;
+		margin-top: 60px;
+	}
+
+@media screen and (max-width: 700px) {
+
+	.text{
+		margin:30px 10%;
+	}
+	
+	.title{
+		margin:50px 8%;
+	}
+
+	.push{
+		margin:0;
+		font-size: 25px;
+		margin-left:auto;
+		margin-right:1em;
+	}
+
+	a > h1{
+		margin:0;
+		margin-left:1em;
+		font-size: 25px;
+	}
+
+	/*li{
+		margin-right: 1em;
+	}*/
+
+
