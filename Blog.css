@@ -71,10 +71,18 @@ h3{
 }
 
 img{
+	height:500px;
+	width:800px;
 	object-fit:cover;
 }
 
 p{
+	font-size: 18px;
+	font-family: 'Martel', serif;
+	line-height: 2;
+}
+
+li{
 	font-size: 18px;
 	font-family: 'Martel', serif;
 	line-height: 2;
