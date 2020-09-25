@@ -7,4 +7,4 @@ The goal of this website is two-fold.
 
 Follow the link below to see the blog in action. This is a learning process so all feedback is welcome!
 
-https://campbeljc.github.io/blog/
+https://campbeljc.github.io/personal_blog/
